@@ -19,40 +19,20 @@ class Owner{
         $this->email = $email;
     }
 
-    public function setNom($nom){      
-        $this->nom = $nom;
-    }
-
-    public function __toString(){
+    public function getNom(){
         return $this->nom;
-    }
-
-    public function setAdresse($adresse){      
-        $this->adresse = $adresse;
     }
 
     public function getAdresse(){
         return $this->adresse;
     }
 
-    public function setCodePostale($codePostale){      
-        $this->codePostale = $codePostale;
-    }
-
     public function getCodePostale(){
         return $this->codePostale;
     }
 
-    public function setTelephone($telephone){      
-        $this->telephone = $telephone;
-    }
-
     public function getTelephone(){
         return $this->telephone;
-    }
-
-    public function setEmail($email){      
-        $this->email = $email;
     }
 
     public function getEmail(){

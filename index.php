@@ -16,6 +16,8 @@
     <main>
 
         <?php include 'html\fiches.php';?>
+        <?php include 'html\fiches2.php';?>
+        <?php include 'html\fiches3.php';?>
 
     </main>
 

@@ -8,3 +8,9 @@ main{
     margin-top: 50px;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

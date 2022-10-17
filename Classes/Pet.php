@@ -17,17 +17,11 @@
             
         }
 
-        public function setNom($nom){
-            $this->nom = $nom; 
-        }
  
          public function getNom(){
              return $this->nom;
         }
 
-        public function setAnniversaire($anniversaire){
-           $this->anniversaire = $anniversaire; 
-        }
 
         public function getAnniversaire(){
             return $this->anniversaire;
@@ -44,10 +38,9 @@
              return $this->age;
         }
 
-        public function __toString(){
-            $string = Animal::getAnimal();
-            $string = $string . " du nom de " . $this->nom . " appertenant à " . $this->proprietaire .  ".";
-            return $string;
+        public function getType(){
+            $espece = Animal::getAnimal();
+            return $espece;
         }
 
 
