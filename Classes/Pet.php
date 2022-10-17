@@ -1,4 +1,7 @@
 <?php
+    
+    require_once "Classes/Animal.php";
+    require_once "Classes/Owner.php";
 
     class Pet extends Animal{
 
@@ -50,4 +53,11 @@
 
     }
 
+    $pet1 = new Pet("Chien", "Chouwan", new DateTime("10-10-2017"), $owner1);
+    $pet2 = new Pet("Chat", "Maya", new DateTime("11-11-2012"), $owner2);
+    $pet3 = new Pet("T-rex", "Rex", new DateTime("12-12-2013"), $owner1);
+    $pet4 = new Pet("Cheval", "Blackie", new DateTime("18-04-2005"), $owner3);
+
+    
 ?>
+

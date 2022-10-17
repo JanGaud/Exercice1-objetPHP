@@ -1,0 +1,32 @@
+article{
+    padding: 20px;
+    border: 1px solid darkgrey;
+    min-width: 40%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.252);
+    border-radius: 5px;
+}
+
+.haut-carte{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.medaillon{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.medaillon>img{
+    width: 100%;
+    height: auto;
+}
+
+.medaillon>h2{
+    align-self: flex-start;
+}
+
+.bas-carte{
+}
