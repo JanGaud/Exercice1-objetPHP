@@ -1,5 +1,4 @@
 <?php
-require_once "test-Animal.php";
 
     class Pet extends Animal{
 

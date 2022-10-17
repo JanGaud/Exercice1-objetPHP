@@ -17,14 +17,8 @@ class Owner{
         $this->email = $email;
     }
 
-    public function setNom($nom){
-        
-        if(preg_match("/^([a-zA-Z' ]+)$/",$nom)){
-            $this->nom = $nom;
-        }
-        else{
-            throw new exception('Le nom est dans un format invalide!');
-        }
+    public function setNom($nom){      
+        $this->nom = $nom;
     }
 
     public function __toString(){
