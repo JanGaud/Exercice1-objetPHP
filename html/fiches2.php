@@ -1,12 +1,11 @@
 <article>
     <div class="haut-carte">
-        <h2>Nom complet</h2>
+        <h2><h2><?php echo $owner2->getNom()?></h2></h2>
         <div class="medaillon"><img src="style\img\kittyavatar.png" alt="image de l'animal"></div>
     </div>
     <div class="bas-carte">
         <h4>Information du client</h4>
         <section class="info-section">
-            <small>Age: <?php echo $owner2->getNom()?></small> <br>
             <small>Adresse: <?php echo $owner2->getAdresse()?></small> <br>
             <small>Code Postale: <?php echo $owner2->getCodePostale()?></small> <br>
             <small>Téléphone: <?php echo $owner2->getTelephone()?></small> <br>
